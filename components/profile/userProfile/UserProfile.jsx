@@ -1,6 +1,6 @@
 import ProfileForm from "../profileForm/ProfileForm";
 import styles from "./userProfile.module.css";
-import { Typography, Grid } from "antd";
+import { Typography, Grid, Row, Col, Spin } from "antd";
 import { useSession } from "next-auth/react";
 
 const { useBreakpoint } = Grid;
